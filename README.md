@@ -3,4 +3,4 @@
 I have developed this typing speed tester using HTML5, CSS, DOM and Javascript. 
 
 
-link to website -> https://github.com/shreyagarwal13/typing_test
+link to website -> https://shreyagarwal13.github.io/typing_test/
