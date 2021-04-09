@@ -1,0 +1,122 @@
+html{
+  background: #212121;
+}
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  background: #212121;
+  color: #52575d;
+}
+
+a{
+  color: #52575d;
+}
+.yellow{
+  color: #ffd369;
+}
+.correct{
+  color: #29bb89;
+}
+.wrong{
+  color: #e84545;
+  text-decoration: underline;
+}
+.current{
+  color: #eeeeee;
+}
+.center{
+  text-align: center;
+}
+.if{
+  display: inline-flex;
+}
+
+.box {
+  max-width: 900px;
+  font-size: 1.5rem;
+  padding: 0 30px;
+}
+
+.top{
+  margin-top: 55px;
+}
+
+#heading{
+  align-self: left;
+  margin-top: 60px;
+  font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  display: inline;
+}
+.limit{
+  display: inline-block;
+  margin-left: 40%;
+}
+.time-limit{
+  font-size: 18px;
+}
+
+.stats{
+  margin: 20px auto 25px auto;
+}
+
+.details{
+  font-size: 6rem;
+}
+.stat-block{
+  padding: 0 30px;
+  min-width: 250px;
+}
+
+@media ( max-width: 600px) {
+  .details{
+    font-size: 5rem;
+  }
+  .stat-block{
+    min-width: 0;
+  }
+}
+
+.stat-name{
+  font-size: 1rem;
+  position: relative;
+  top: 45px;
+  right: 5px;
+}
+
+.text-display{
+  margin: 10px 0 25px 0;
+  font-size: 22px;
+  text-align: left;
+  min-height: 200px;
+}
+
+input:focus, textarea:focus, select:focus, a:focus{
+  outline: 0 ;
+}
+a:focus,a:hover{
+  color: #ffd369;
+  text-decoration: none;
+}
+footer{
+  margin-top: 25px;
+  font-size: 15px;
+}
+
+.restart-button{
+  padding: 10px;
+}
+
+textarea{
+  background: #212121;
+  border: solid, #52575d;
+  border-width: 2px;
+  border-radius: 10px;
+  color: #eeeeee;
+  padding: 10px;
+  font-size: 1.2rem;
+  resize: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
