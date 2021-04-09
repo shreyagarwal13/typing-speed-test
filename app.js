@@ -54,6 +54,7 @@ sixty.addEventListener("click",function(){
 
 //restart the Test
 restartBtn.addEventListener("click",function(){
+  limitVisible();
   wordsSubmitted = 0;
   wordsCorrect = 0;
   flag=0;
@@ -91,11 +92,16 @@ function timeStart(){
 //diable textarea and wait for restart
 function timeOver(){
   inputItem.disabled = true;
-  thirty.style.visibility = 'visible';
-  sixty.style.visibility = 'visible';
+  limitVisible();
   restartBtn.focus();
   displayScore();
 }
+
+function limitVisible(){
+  thirty.style.visibility = 'visible';
+  sixty.style.visibility = 'visible';
+}
+
 
 //display the score
 function displayScore(){
