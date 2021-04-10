@@ -28,6 +28,7 @@ inputItem.addEventListener('input', function(event){
     timeStart();
   }
   var charEntered = event.data;
+  console.log(charEntered);
   if(charEntered===' '){
     checkWord();
   }
