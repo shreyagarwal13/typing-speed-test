@@ -33,7 +33,6 @@ a{
 
 .box {
   max-width: 900px;
-  font-size: 1.5rem;
   padding: 0 30px;
 }
 
@@ -47,8 +46,6 @@ a{
 .limits-box{
   text-align: right;
   margin: 0 35px 0 0 ;
-}
-.limit{
   font-size: 15px;
 }
 
@@ -94,6 +91,7 @@ a:focus,a:hover{
   color: #ffd369;
   text-decoration: none;
 }
+
 footer{
   padding: 20px;
   font-size: 15px;
