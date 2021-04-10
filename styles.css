@@ -40,6 +40,10 @@ a{
 .top{
   margin-top: 55px;
 }
+h1{
+  font-size: 2rem;
+  display: inline-block;
+}
 
 #heading{
   align-self: left;
@@ -51,7 +55,7 @@ a{
 }
 .limit{
   display: inline-block;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 .time-limit{
   font-size: 18px;
@@ -69,7 +73,7 @@ a{
   min-width: 250px;
 }
 
-@media ( max-width: 600px) {
+@media(max-width: 600px){
   .details{
     font-size: 5rem;
   }
@@ -100,7 +104,7 @@ a:focus,a:hover{
   text-decoration: none;
 }
 footer{
-  margin-top: 25px;
+  margin: 25px 0;
   font-size: 15px;
 }
 
