@@ -40,10 +40,6 @@ a{
 .top{
   margin-top: 55px;
 }
-h1{
-  font-size: 2rem;
-  display: inline-block;
-}
 
 #heading{
   align-self: left;
@@ -104,7 +100,7 @@ a:focus,a:hover{
   text-decoration: none;
 }
 footer{
-  margin: 25px 0;
+  padding: 25px;
   font-size: 15px;
 }
 
