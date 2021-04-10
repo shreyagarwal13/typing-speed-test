@@ -28,8 +28,7 @@ inputItem.addEventListener('input', function(event){
     timeStart();
   }
   var charEntered = event.data;
-  console.log(charEntered);
-  if(charEntered===' '){
+  if(/\s/g.test(charEntered)){  //check if the character entered is a whitespace
     checkWord();
   }
   else{
